@@ -32,30 +32,6 @@ Kullanıcılar kayıt olup giriş yaptıktan sonra ilan ekleyebilir, başkaları
 | Apache (XAMPP) |
 
 
-## 🗃️ Proje Yapısı (webdersiprojesi/)
-
-/gayrimenkul_kiralama_yonetim_sistemi
-│
-├── /webdersiprojesi
-│   ├── add_listing.php           # İlan ekleme formu
-│   ├── add_listing_process.php   # İlan verilerini veritabanına kaydeden işlem dosyası
-│   ├── db.php                    # Veritabanı bağlantı ayarları
-│   ├── delete_listing.php        # İlan silme işlemini gerçekleştirir
-│   ├── edit_listing.php          # İlan güncelleme formu ve işlemi
-│   ├── index.php                 # Anasayfa veya giriş yönlendirme sayfası
-│   ├── listings.php              # İlanların listelendiği ana sayfa (kendi ve diğer kullanıcı ilanları dahil)
-│   ├── login.php                 # Kullanıcı giriş formu
-│   ├── logout.php                # Oturum kapatma işlemi
-│   ├── register.php              # Kullanıcı kayıt formu
-│   ├── register_process.php      # Kayıt formundan gelen verileri veritabanına kaydeder
-│   └── /uploads                  # İlan görsellerinin yüklendiği klasör
-│
-├── /resimler                    # Proje ekran görüntülerinin yer aldığı klasör (README'de kullanılmak üzere)
-└── README.md                    # Proje tanıtımı, kurulum adımları ve görsellerin yer aldığı açıklayıcı dosya
-
-
----
-
 ## Ekran Görüntüleri
 
 **1. Kayıt Olma Ekranı**  
