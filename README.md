@@ -67,7 +67,7 @@ CREATE TABLE users (
     tel VARCHAR(20),
     email VARCHAR(100) UNIQUE,
     password VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 ### `emlak_ilanlari` tablosu:
